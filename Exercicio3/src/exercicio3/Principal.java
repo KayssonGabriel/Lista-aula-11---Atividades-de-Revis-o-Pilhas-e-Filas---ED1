@@ -35,7 +35,7 @@ public class Principal {
 		fila.insere(c);
 		fila.insere(d);
 
-		int numAvioes = fila.avioes.size();
+		int numAvioes = fila.tamanho();
 		System.out.println("Número de aviões = " + numAvioes);
 		fila.imprimir();
 
